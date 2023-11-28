@@ -1,9 +1,19 @@
-.footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
+.body{
+  margin-top: 150px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.info{
+  display:flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 20px;
+  font-family: 'Nova Square', sans-serif;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Nova Square', sans-serif;
+}
