@@ -2,17 +2,69 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Band Page</title>
+    <title>Band</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="normalize.css" rel="stylesheet" type="text/css" /> 
+    <link href="page3.css" rel="stylesheet" type="text/css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <div w3-include-html="header.html"></div>
-
-    <h1>Band</h1>
-    <p>Band page</p>
-
+    <div class = "body">
+      <img src="image/johnlennon.jpg" alt= "John Lennon" width = "750" >
+    
+      <div class = "info">
+        <h1>John Lennon</h1>
+        <p><b>John Lennon</b>, born in October 9, 1940, Liverpool, England, was the leader/co-leader of <b>The Beatles</b>, author, graphic artist
+        , solo recording artist and collaborator with Yoko Ono, who he married at the age of 28. At age 16, he founded a band that evolved into <b>The Beatles</b>.</p>
+      </div>
+    </div>
+    <div class="bodyReverse">
+      <img src="image/paulmccartney.jpg" alt="Paul McCartney" width="750">
+      <div class="info" style="margin-top: 100px;">
+        <h1>Paul McCartney</h1>
+        <p><b>Paul McCartney</b>, born in June 18, 1942, Liverpool, England, was a vocalist, songwriter, composer, bass player, poet and painter.
+        He was one of the most popular solo performers of all time in terms of both sales of his recordings and attendance of concerts.</p>
+      </div>
+    </div>
+    <div class="body">
+      <img src="image/GeorgeHarrison.jpg" alt="George Harrison" width="750">
+      <div class="info" style="margin-top: 100px;">
+        <h1>George Harrison</h1>
+        <p><b>George Harrison</b>, born in February 25, 1943, Liverpool, England, was a musician, singer, songwriter and guitarist of <b>The Beatles</b>.
+        He was the youngest and later achieved singular success as a songwriter and performer.</p>
+      </div>
+    </div>
+    <div class="bodyReverse">
+      <img src="image/ringostarr.jpg" alt="Ringo Starr" width="750">
+      <div class="info" style="margin-top: 75px; margin-right:100px;">
+        <h1>Ringo Starr</h1>
+        <p><b>Ringo Starr</b>, born in July 7, 1940, Liverpool, England, was a musician, singer, songwriter, actor and drummer of <b>The Beatles</b>.
+        He was introduced to the drums by a health worker who gave children musical instruments to amuse them when he got pleurisy at the age of 13.
+        He then found success in a solo career.</p>
+      </div>
+    </div>
+    <hr style="margin-bottom: 60px; height: 3px; background:black"/>
+    <div class="notifs">
+      <p>Enter Your Email To Receive Notifications Now !</p>
+      <form>
+        <input type = "email" placeholder="Email Address" name = "email" id="email" required>
+        <input type="submit" value="Enter">
+      </form>
+    </div>
+    <footer class="footer">
+      <p>Follow Our Social Media Accounts</p>
+      <div class="socialmedia">
+        <a href="https://www.facebook.com/thebeatles/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/thebeatles?lang=en" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/channel/UCc4K7bAqpdBP8jh1j9XZAww" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/thebeatles/?hl=en" class="fa fa-instagram"></a>
+        </div>      
+    </footer>
     <script src="w3-include-HTML.js"></script>
-  </body>
+  </body>  
 </html>
