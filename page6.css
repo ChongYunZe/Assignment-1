@@ -1,46 +1,61 @@
-.background{
-    background: black;
-}
-.body{
-    margin-top: 100px;
-    margin-left: 35px;
-    display: flex;
-    flex-direction: column;
-    color:white;
-    
-  }
-  h1{
+h1{
     font-size: 80px;
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
     text-decoration:underline overline;
     display:flex;
     justify-content: center;
+    color:white;
+    margin-top: 150px;
+    margin-left: 35px;
+  }
+  .body{
+    margin-top: 100px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    
+    
+  }
+  body {
+    background-image: url('image/backgroundtourimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
   }
 
-p{
-    display:flex;
-    justify-content: center;
+  h2{
+    font-size:50px;
+    font-family: 'Nova Square', sans-serif;
+  }
+  h3{
+    margin-top:20px;
     font-size:30px;
-    font-family: 'Oswald', sans-serif;
-    margin-left: 50px;
-    align-items:center;
-    text-decoration: underline;    
-}
-.format{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-}
-.innerformat{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center; 
-    margin-top:150px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  p{
+    font-size:20px;
+    font-family: 'Bebas Neue', sans-serif;
     
-}
-.footer {
+  }
+  section{
+    padding:20px;
+    display:flex;
+    
+    flex-wrap:wrap;
+  }
+  .formattext{
+    flex-direction:column;
+  }
+  .separate{
+    margin-top:25px;
+  }
+
+
+  .footer {
     padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 1px;
     left: 0;
     bottom: 0;
