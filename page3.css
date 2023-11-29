@@ -46,15 +46,7 @@
     display:flex;
     justify-content: space-evenly;
   }
-  .notifs{
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      font-family: 'Roboto Slab', serif;
-  }
+  
     .fa {
       padding: 20px;
       font-size: 30px;

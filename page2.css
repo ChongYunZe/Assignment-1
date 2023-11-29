@@ -1,0 +1,93 @@
+
+.background{
+    background: black;
+}
+.body{
+    margin-top: 100px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    
+  }
+  h1{
+    font-size: 80px;
+    font-family: 'Ma Shan Zheng', cursive;
+    text-decoration:underline overline;
+    display:flex;
+    justify-content: center;
+  }
+h2{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Smooch Sans', sans-serif;
+}
+p{
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+}
+.format{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.innerformat{
+    display:flex;
+    flex-direction:column;
+    padding: 50px;
+    
+}
+.footer {
+    padding-top: 50px;
+    margin-top: 1px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items:center;
+    font-size: 20px;
+    height:140px;
+    font-family: 'Roboto Slab', serif;
+  } /*Footer */
+.socialmedia{
+  margin-left:500px;
+  margin-right:500px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
