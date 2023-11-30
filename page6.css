@@ -4,7 +4,7 @@ h1{
     text-decoration:underline overline;
     display:flex;
     justify-content: center;
-    color:white;
+    color: white;
     margin-top: 150px;
     margin-left: 35px;
   }
@@ -13,12 +13,12 @@ h1{
     margin-left: 35px;
     display: flex;
     flex-direction: row;
-    color:white;
+    color: white;
     
     
   }
   body {
-    background-image: url('image/backgroundtourimg.jpg');
+    background-image: url('image/abbeyroadBackground.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -37,6 +37,7 @@ h1{
   p{
     font-size:20px;
     font-family: 'Bebas Neue', sans-serif;
+    
     
   }
   section{
