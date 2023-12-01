@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     box-sizing: border-box;
     font-family: "Montserrat";
@@ -82,5 +84,73 @@ svg{
   width: 50px;
 }
 
+@media (max-width:576px){
+  .container{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 30px;
+    justify-content: center;
+    
+  }
+.product img{
+    width: 250px;
+    height:250px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.productDesc{
+    text-align:center;
+    padding: 20px 0px;
+    
+}
 
+.productDesc button{
+  background-color: #353432;
+  color:white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.productDesc h3{
+    font-size: 24px;
+    padding:10px 0px;
+}
+.productDesc p{
+    font-size:18px;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Ma Shan Zheng', cursive;
+    text-decoration:underline ;
+    display:flex;
+    justify-content: center;
+  }
+  .body{
+    margin-top: 0px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+ 
+
+  .icon-cart{
+    display: flex;
+    margin-right: 50px;
+    margin-top:150px;
+    top: 50%;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+
+svg{
+  z-index:-1;
+  width: 50px;
+}
+}
   
